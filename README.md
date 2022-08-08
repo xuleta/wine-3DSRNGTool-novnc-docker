@@ -1,4 +1,4 @@
-## wine-x11-novnc-docker
+## wine-3DSRNGTool-novnc-docker
 
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/solarkennedy/wine-x11-novnc-docker/latest)
 ![Docker Pulls](https://img.shields.io/docker/pulls/solarkennedy/wine-x11-novnc-docker)
@@ -21,12 +21,11 @@ on the Docker Hub.
 
 ## Run It
 
-    docker run --rm -p 8080:8080 solarkennedy/wine-x11-novnc-docker
-    xdg-open http://localhost:8080
+    docker-compose up -d
 
-In your web browser you should see the default application, explorer.exe:
+In your web browser navigate to http://localhost:8080, you should see the default application 3DSRNGTool.
 
-![Explorer Screenshot](https://raw.githubusercontent.com/solarkennedy/wine-x11-novnc-docker/master/screenshot.png)
+For persintent storage, save your files in the folder 3DSRNGTool.
 
 ## Modifying
 
